@@ -11,7 +11,7 @@ body{
     justify-content: center;
     border:3px solid black;
     border-radius: 30px;
-    background-color: grey;
+    background-color: pink;
 }
 .container h1{
     display: flex;
@@ -19,22 +19,57 @@ body{
     text-decoration: underline;
 }
 .add{
-    display: flex;
+    display: block;
     justify-content: center;
+    align-items: center;   
 }
+/* CSS */
+.input-container {
+    display: flexbox;
+   
+    border-radius: 30px;
+  }
+  
+  .input-container input {
+    margin-right: px;
+  }
+  
 input{
-    border-radius: 9px;
-    align-items: center;
-}
-.addBtn{
-    color: blue;
-    
-}
-button{
-    background-color: grey;
     border-radius: 10px;
+    display: block;
+    margin: auto;
+    padding: 7px;
+    box-shadow: 2px 2px 15px black;
+    font-family: monospace;
+    font-weight: bold;
+    color: purple;
 }
-ul li{
+   
+
+.btn{
+    background-color: purple;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    margin: auto;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-family: monospace;
+}
+.btn:hover{
+    
+    background-color: pink;
+    
+    transition: ;
+
+}
+    color: red;
+    border-radius: 30px;
+    margin: auto;
+    margin-left: 2rem;
+}
+{
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
@@ -43,10 +78,50 @@ ul li{
     transition: 0.2s;
     border-radius:60px;
 }
-
-.deleteBtn {
-    color: red;
-    cursor: pointer;
-    margin-left: 10px;
+/* CSS */
+  #list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: green;
+    background-color: #fff;
+    padding: 10px 4px 10px;
+    border-radius: 150rem;
+    margin-left: -1rem;
+    font-weight: bold;
+    font-family: monospace;
+    box-shadow: 4px 4px 2px purple;
+    
   }
+  
+  #list li button {
+    margin-left: 10px;
+    border-radius: 9px;
+    background-color: green;
+    font-weight: bold;
+    font-family: monospace;
+    
+
+  }
+  #list li button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    background-color: rgb(177, 65, 177);
+
+  }
+  
+  .list-item {
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 5px;
+    
+  }
+  
+  .list-item:nth-child(even) {
+    background-color: red;
+    border-radius: 30px;
+    color: red;
+    
+  }
+  
 
