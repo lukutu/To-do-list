@@ -63,10 +63,32 @@
           
           deleteItem(2); // Delete item at index 2
           console.log(list); // Print the updated list
-        </script>
+      
           
           
 
-    </div>
+   
+    
+    // JavaScript
+    new Vue({
+      el: '#app',
+      data: {
+        newItem: '',
+        list: []
+      },
+      methods: {
+        addItem() {
+          if (this.newItem !== '') {
+            this.list.push(this.newItem);
+            this.newItem = '';
+          }
+        },
+        deleteItem(index) {
+          this.list.splice(index, 1);
+        }
+      }
+    });
+  </script>
+    
 </body>
 </html>
