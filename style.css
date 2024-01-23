@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width:20%;
+    min-width:350px;
+    margin: auto;
+    padding:10px;
+    justify-content: center;
+    border:3px solid black;
+    border-radius: 30px;
+    background-color: grey;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.add{
+    display: flex;
+    justify-content: center;
+}
+input{
+    border-radius: 9px;
+    align-items: center;
+}
+.addBtn{
+    color: blue;
+    
+}
+button{
+    background-color: grey;
+    border-radius: 10px;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 16px;
+    transition: 0.2s;
+    border-radius:60px;
+}
+
+.deleteBtn {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
